@@ -13,7 +13,7 @@
 ##  RESOURCES
 
 - https://www.kaggle.com/code/umeshnarayanappa/exploring-chicago-crimes-2012-2016
-- [https://open-meteo.com/en/docs/historical-weather-api](https://archive-api.open-meteo.com/v1/archive"
+- https://open-meteo.com/en/docs/historical-weather-api](https://archive-api.open-meteo.com/v1/archive"
 
 ##  PROJECT PLANNING
 
