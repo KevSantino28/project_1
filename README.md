@@ -60,7 +60,8 @@ Following setup the open-meteo steps are applied:
   - Use the Bar chart to analyze the Crimes Committed per Tempemperature.
   - And to finish using the scatter chart to show th correlation between temperature and number of crimes for each each year between 2012 and 2017.
 
-![Untitled](https://github.com/KevSantino28/project_1/assets/145527812/03f657f3-97b0-45fd-9223-3d8a4442394c)
+![Untitled](https://github.com/KevSantino28/project_1/assets/145527812/27e694b1-0726-40ce-a563-bf16f3c17113)
+
 
 ###  5-CONCLUSION
 
