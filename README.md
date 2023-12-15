@@ -2,7 +2,7 @@
 
 ##  PURPOSE
 
-- "Thermal Trends and Crime Dynamics: Analyzing the correlation between Temperature Variations and Violent Crimes Reported in Chicago from 2012 to 2016".
+- "Thermal Trends and Crime Dynamics: Analyzing the correlation between Temperature Variations and Violent Crimes Reported in Chicago from 2012 to 2017".
 - For the project, the data for the analysis used is from Kaggle and the Open-Meteo API.
 
 ##  CODE
@@ -38,7 +38,7 @@ Following setup the open-meteo steps are applied:
 
   - Study the files, reading the CSV, read the crime data to analysis.
   - Check if the data have duplicates searching from the ID and blank columns.
-  - List the Type of Crimes and number of reports from 2012 to 2016.
+  - List the Type of Crimes and number of reports from 2012 to 2017.
 
 ![2](https://github.com/KevSantino28/project_1/assets/145527812/bff4a207-1d17-43f3-97a7-eb2b17d98e12)
 
@@ -52,5 +52,21 @@ Following setup the open-meteo steps are applied:
 
 ### 4-ANALYZE THE DATA USING CHARTS
 
-  - Use the pie chart to show the overall percent of the Violent crimes from 2012 to 2016, and five chart pie addtionals showing the percent of the violent crimes for each year.
-  - Utilize 
+  - Use the Pie chart to show the overall percent of the Violent crimes from 2012 to 2017, and five chart pie addtionals showing the percent of the violent crimes for each year.
+  - Utilize the Scatter chart to show the correlation weather vs report crimes from 2012 to 2017.
+
+![5](https://github.com/KevSantino28/project_1/assets/145527812/b73b9b76-bf5d-4a52-a785-05ed2e2b4fa8)
+
+  - Use the Bar chart to analyze the Crimes Committed per Tempemperature.
+  - And to finish using the scatter chart to show th correlation between temperature and number of crimes for each each year between 2012 and 2017.
+
+![Untitled](https://github.com/KevSantino28/project_1/assets/145527812/27e694b1-0726-40ce-a563-bf16f3c17113)
+
+
+###  5-CONCLUSION
+
+  - The conclusion of the analyses will be demonstrate in an presetation on the class using an powerpoint presentation.
+
+    
+
+
