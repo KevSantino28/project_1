@@ -23,7 +23,19 @@ Analyze the correlation between Temperature Variations and Reported Crimes in Ch
 
 The data used to do the analysis is an CSV file downloaded from kaggle.
 
-###  2-DATA CLEANING
+###  2-SETUP THE OPEN-METEO API
 
-Following Data Cleaning steps are applied:
+Following setup the open-meteo steps are applied:
+  - List the required variables,
+  - Process the first location and use for loop to multiple locations or weather models,
+
+![1](https://github.com/KevSantino28/project_1/assets/145527812/bb791a5f-80d4-4c22-90dd-a7329be23c3f)
+
+  - Process daily data,
+  - Renaming Date column
+
+###  3-DATA CLEANNING UP
+
+  - Study the files, reading the CSV, read the crime data to analysis
   - 
+  -
