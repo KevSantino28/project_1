@@ -10,14 +10,30 @@
 - Python
 - Packages:Pandas, Matplotlib, Spicy.stats, Numpy, Openmeteo_requests, Requests_Cache.
 
-##  RESOURCES
-
-- https://www.kaggle.com/code/umeshnarayanappa/exploring-chicago-crimes-2012-2016
-- https://open-meteo.com/en/docs/historical-weather-api](https://archive-api.open-meteo.com/v1/archive"
-
 ##  PROJECT PLANNING
 
 Analyze the correlation between Temperature Variations and Violent Crimes Reported in Chicago using Kaggle data and The Historical Weather API.
+
+Per Corcoran and Zahnow in their metadata analysis, 79% of studies of this relationship define violent crime as: 
+“...a category that includes rape and sexual assault, robbery, assault, crimes against the person and murder.” [3]
+
+We defined violent crime as the following: instances of assault, battery, criminal sexual assault, and homicide.
+We fit Corcoran and Zahnow's definition to our crime dataset tags.
+
+Alternative Hypothesis: If it is hotter outside, then there will be more instances of violent crime.
+Null Hypothesis: The weather outside has no impact on the prevalence of violent crime.
+
+We believe the relationship between temperature variation and violent crime is more nuanced than correlation/causation: violent crime is 
+a complex amalgam of socio-economic and psychological factors. Drawing a clear causation relationship would be tenuous at best,
+so we're exploring it as correlation and either indirect causation or direct causation.
+
+Indirect causation: If it’s hotter outside, more people will be outside – leading to more crime being committed.
+Direct causation: If it’s hotter outside, people will suffer greater psychological effects of heat – causing more crime being committed.
+
+Indirect causation would see instances of violent crime plateau at a certain temperature. Direct causation would see the temperature and instances of violent crime increase linearly.
+
+Ultimately, our hypothesis is one of indirect causation.
+
 
 ###  1-DATA ACQUISITION
 
@@ -65,7 +81,45 @@ Following setup the open-meteo steps are applied:
 
 ###  5-CONCLUSION
 
-  - The conclusion of the analyses will be demonstrate in an presetation on the class using an powerpoint presentation.
+  - The primary conclusion of the analyses will be discussed in a presetation in class using a powerpoint presentation.
+
+We’ve demonstrated a positive correlation and indirect causation relationship between the weather and instances of violent crime: as it gets hotter, there is more violent crime.
+
+Our results plateau, with most instances occurring in the high 70s range.
+
+Our ANOVA results show an extremely strong correlation, with a p-value of 0.0
+
+
+###  RESOURCES
+
+[1] Weather Data API
+  Zippenfenig, P. (2023). Open-Meteo.com Weather API [Computer software]. Zenodo. https://doi.org/10.5281/ZENODO.7970649
+
+  Hersbach, H., Bell, B., Berrisford, P., Biavati, G., Horányi, A., Muñoz Sabater, J., Nicolas, J., Peubey, C., Radu, R., Rozum, I., Schepers, D., Simmons, A., Soci, C., Dee, D., Thépaut, J-N. (2023). ERA5 hourly data on single levels from 1940 to present [Data set]. ECMWF. https://doi.org/10.24381/cds.adbb2d47
+
+  Muñoz Sabater, J. (2019). ERA5-Land hourly data from 2001 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.E2161BAC
+
+  Schimanke S., Ridal M., Le Moigne P., Berggren L., Undén P., Randriamampianina R., Andrea U., Bazile E., Bertelsen A., Brousseau P., Dahlgren P., Edvinsson L., El Said A., Glinton M., Hopsch S., Isaksson L., Mladek R., Olsson E., Verrelle A., Wang Z.Q. (2021). CERRA sub-daily regional reanalysis data for Europe on single levels from 1984 to present [Data set]. ECMWF. https://doi.org/10.24381/CDS.622A565A
+
+  https://open-meteo.com/en/docs/historical-weather-api](https://archive-api.open-meteo.com/v1/archive
+
+[2] Crime Data CSV
+  Umeshnarayanappa, U. (2017, March 2). Exploring chicago crimes 2012-2016. Kaggle. https://www.kaggle.com/code/umeshnarayanappa/exploring-chicago-crimes-2012-2016 
+
+[3] Metadata Analysis
+  Corcoran, J., Zahnow, R. Weather and crime: a systematic review of the empirical literature. Crime Sci 11, 16 (2022). https://doi.org/10.1186/s40163-022-00179-8
+
+[4] 2012 Discussion
+  Davey, M. (2012, June 26). Rate of killings rises 38 percent in Chicago in 2012. The New York Times. https://www.nytimes.com/2012/06/26/us/rate-of-killings-rises-38-percent-in-chicago-in-12.html 
+
+[5] District Map
+  Consortium on Chicago School Research. (n.d.-a). Selected indicators from the U.S. Census and Chicago Public Schools Records related to the lives and schooling of children. https://consortium.uchicago.edu/web_reports/Schoolageenvironment/mainmap.htm 
+
+[6] Poverty Map
+  xhan20. (2013, September 9). Collection of poverty maps of Chicago. Data Model Prototype. https://datamodelprototype.wordpress.com/2013/09/09/collection-of-poverty-maps-of-chicago/ 
+
+[7] AC in Public Housing
+Gorner, J. (2023, March 24). Spurred by heat deaths of seniors in Rogers Park, Illinois Senate passes measure requiring AC at state-funded affordable housing. Chicago Tribune. https://www.chicagotribune.com/politics/ct-illinois-affordable-housing-ac-requirement-20230324-p6nn3o6ot5e35afraykeihkcim-story.html 
 
     
 
