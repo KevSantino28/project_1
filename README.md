@@ -52,7 +52,7 @@ Following setup the open-meteo steps are applied:
 
 ### 4-ANALYZE THE DATA USING CHARTS
 
-  - Use the Pie chart to show the overall percent of the Violent crimes from 2012 to 2017, and five chart pie addtionals showing the percent of the violent crimes for each year.
+  - Use the Pie chart to show the overall percent of the Violent crimes from 2012 to 2017, and five chart pie additionals showing the percent of the violent crimes for each year.
   - Utilize the Scatter chart to show the correlation weather vs report crimes from 2012 to 2017.
 
 ![5](https://github.com/KevSantino28/project_1/assets/145527812/b73b9b76-bf5d-4a52-a785-05ed2e2b4fa8)
